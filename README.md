@@ -22,6 +22,7 @@ Impletementation de Crontab dans Un project django
 Exemple Nous allons excuter un script qui enregistre test dans la bd chaque trois minute
 - dans notre cron.py on entre le code suvant:
 ```
+from . import models
   def nanus ():
     req = models.Nan(nom='test')
     req.save()
